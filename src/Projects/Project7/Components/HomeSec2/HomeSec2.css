@@ -1,0 +1,149 @@
+.HomeSec2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #2e2e35;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 10%;
+  }
+  .sec2shoptitle {
+    font-family: pinar;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 58.7%;
+  
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0 20px 0;
+    margin-bottom: 30px;
+    border-bottom: 5px solid blue;
+  }
+
+  .sec2cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 92%;
+    padding-bottom: 5%;
+  }
+  
+  .sec2singlecart {
+    background-color: #17171f;
+  
+    width: 32%;
+    border-radius: 15px;
+    height: 300px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .textcartsec2 {
+    height: 70%;
+    text-align: justify;
+    
+  }
+  .titlecardsec2 {
+    font-family: pinar;
+    font-weight: 800;
+    line-height: 37px;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center !important;
+  }
+  .svgsec2shop {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .infocartsec2 {
+      height: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 10px;
+  }
+  .svgsec2shop svg {
+    background-color: blue;
+    border-radius: 15px;
+  }
+  
+  @media only screen and (max-width: 1240px) {
+    .sec2cards {
+      flex-direction: column;
+    }
+    .sec2singlecart div {
+      width: unset;
+    }
+  
+    .sec2singlecart {
+      width: 100%;
+      flex-direction: row;
+      height: 150px;
+      margin-top: 10px;
+    }
+  
+    .svgsec2shop {
+      width: 20%;
+      display: flex;
+      align-self: center;
+      justify-content: center;
+    }
+    .infocartsec2 {
+      width: 80%;
+      display: flex;
+      align-self: center;
+      justify-content: center;
+      padding-right: 10px;
+    }
+    .titlecardsec2{
+      padding-bottom: 10px;
+    }
+  }
+
+
+  
+@media only screen and (max-width: 689px) {
+
+    .sec2cards {
+        flex-direction: column;
+      }
+      .infocartsec2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 0!important;
+        padding-right: 0;
+      }
+      .sec2singlecart {
+        background-color: #17171f;
+    
+        width: 100%;
+        border-radius: 15px;
+        height: auto;
+        display: flex;
+        margin-top: 10px;
+        align-items: center;
+        justify-content: flex-start;
+    
+        flex-direction: column;
+       
+      }
+      .infocartsec2{
+        margin-top: 5px;
+      }
+
+}

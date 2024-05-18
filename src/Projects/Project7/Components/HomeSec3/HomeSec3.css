@@ -1,0 +1,70 @@
+
+
+.homesec3{
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: column;
+  margin-top: 30px;
+  background-color: #2e2e35;
+  border-radius: 15px;
+  }
+  .contenthomesec3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .asksechome3{
+  padding: 20px;
+  width: 70%;
+  }
+  .MuiPaper-root{
+    background-color: #17171f!important;
+      color: white!important;
+      border-radius: 15px!important;
+      margin-bottom: 5px!important;
+  }
+  
+  .css-i4bv87-MuiSvgIcon-root{
+    color: orange!important;
+  }
+  
+  .MuiAccordionSummary-content{
+    font-family: pinar!important;
+    font-weight: 100!important;
+    font-size: 16px;
+  }
+
+  .img3d{
+    position: relative;
+   
+  }
+  .loadingimg3d{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   background-color: #2e2e35;
+    color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+  }
+@media only screen and (max-width: 1290px) {
+    .img3d{
+        display: none!important;
+    }
+    .contenthomesec3{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+        flex-direction: column;
+      }
+    .asksechome3{
+        padding: 20px;
+        width: 100%;
+        }
+}

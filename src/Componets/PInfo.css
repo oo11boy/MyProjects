@@ -1,0 +1,15 @@
+.PInfo button{
+padding: 10px;
+border-radius: 15px;
+background-color: rgb(180, 15, 15);
+font-family: vazir;
+color: white;
+border: none;
+font-size: 20px;
+margin-top: 10px;
+cursor: pointer;
+}
+
+.PInfo{
+    margin: 10px;
+}

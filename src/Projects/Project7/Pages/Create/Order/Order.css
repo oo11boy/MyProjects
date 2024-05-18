@@ -1,0 +1,138 @@
+.undertshirtorder {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.sec1order {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.topsec1order {
+  font-weight: 500;
+  padding-bottom: 10px;
+  font-size: 18px;
+  color: #fefefe82;
+}
+
+.undersec1order {
+  color: #7be016;
+  font-size: 32px;
+  font-family: pinar;
+  font-weight: 800;
+  padding-bottom: 10px;
+}
+
+.infoordershop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sizetshirtorder {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sizetshirtorder div {
+  margin-left: 10px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  width: 60px;
+  color: white;
+  border-radius: 10px;
+  background-color: #2e2e35;
+  cursor: pointer;
+}
+.bg-white {
+  background-color: white !important;
+  color: #2e2e35 !important;
+}
+
+.topinfoordershop {
+  font-family: pinar;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.colorinfoordershop {
+  display: flex;
+  align-items: center;
+}
+.colorinfoordershop .white {
+  width: 60px;
+  height: 40px;
+  border-radius: 10px;
+  border: 4px solid rgba(233, 168, 47, 0.457);
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.colorinfoordershop .black {
+  cursor: pointer;
+  border-radius: 10px;
+  border: 4px solid rgba(233, 168, 47, 0.457);
+  width: 60px;
+  height: 40px;
+  margin-left: 10px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.activecolor {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: orange;
+}
+
+@media only screen and (max-width: 545px) {
+  .topsec1order {
+    font-size: 15px;
+  }
+  .undersec1order {
+    font-size: 24px;
+  }
+  .resp {
+    font-size: 14px;
+  }
+  .sizetshirtorder div {
+    height: 30px;
+
+    font-size: 14px;
+    width: 30px;
+  }
+  .topinfoordershop {
+    font-size: 18px;
+  }
+
+  .colorinfoordershop .white {
+    width: 40px;
+    height: 30px;
+  }
+
+  .colorinfoordershop .black {
+    width: 40px;
+    height: 30px;
+  }
+
+  .activecolor {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: orange;
+  }
+}

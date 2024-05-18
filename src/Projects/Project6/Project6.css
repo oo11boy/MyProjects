@@ -1,0 +1,255 @@
+.socialcontainer{
+    display: flex;
+    align-items: start;
+    justify-content: right;
+    flex-direction: row-reverse;
+    width: 100%;
+  
+    
+    position: relative;
+}
+
+.leftsocial{
+    transition: color 0.3s ease-in;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+
+}
+.rightsocial{
+    position: fixed;
+ 
+    right: 0;
+    top: 0;
+    width: 20%;
+    height: 100vh;
+padding: 0 20px;
+    border-left: 1px solid rgba(0, 0, 0, 0.153);
+ 
+
+}
+
+
+.contentrightsocial{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    flex-direction: column;
+  
+}
+body{
+    overflow-y: scroll;
+}
+.logosoc{
+    display: flex;
+ justify-content: right;
+ align-items: center;
+    height: 100px;
+    width: 100%;
+
+}
+.underlogosoc{
+    width: 100%;
+    display: flex;
+ align-items: flex-end;
+ flex-direction: column;
+    justify-content: right;
+}
+.underlogosocitem{
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    gap: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease-in;
+}
+
+.underlogosocitem img{
+    width: 50px;
+    height: 50px;
+   
+    border-radius: 50%;
+    padding:1px;
+    
+}
+.underlogosocitem svg{
+    font-size: 35px;
+    width: 50px;
+    
+}
+
+
+
+
+
+
+
+
+
+/* responsive */
+.tour6mob{
+    display: none;
+}
+.p2p6{
+    padding: 1px;
+    font-size: 30px;
+   margin-top: 20px;
+}
+.infop6ul {
+    margin-bottom: 20px;
+}
+.infop6ul li{
+    padding: 3px;
+    font-size: 20px;
+}
+@media only screen and (max-width: 1090px) {
+ .textmenumob{
+    display: none;
+   
+ }
+ .tour6mob{
+    display: flex;
+ 
+    position: fixed;
+    top: 10%;
+    right: 0;
+
+}
+
+.tour6mob .PInfo button{
+    font-size: 10px!important;
+    
+}
+ .tour6{
+    display: none;
+ }
+    .socialcontainer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction:column;
+        width: 100%;
+       
+        padding: 20px;
+    
+    }
+.rightsocial{
+    position: unset;
+    right: none;
+    bottom: none;
+    width: 100%;
+   z-index: 999;
+    height: 0vh;
+padding: 0 20px;
+    border-left: 1px solid rgba(0, 0, 0, 0.153);
+   
+
+}
+.leftsocial{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+  
+}
+.logosoc{
+    display: none;
+}
+
+.underlogosocitem svg{
+    height: 30px;
+}
+
+.underlogosocitem img{
+    height: 30px;
+    width: 30px;
+}
+.underlogosoc{
+    width: 100%;
+    display: flex;
+ align-items: center;
+ flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    padding: 8px 10px;
+    bottom: 0;
+    right:0;
+    border-top: 1px solid rgba(0, 0, 0, 0.239);
+    
+}
+
+.underlogosocitem{
+  
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: 0;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+   width: 100px;
+   padding: 6px 6px;
+   -webkit-tap-highlight-color: transparent;
+
+}
+
+
+.underlogosocitem:focus{
+    background-color: #333;
+  border-radius: 10px;
+    box-sizing: border-box;
+   color: white;
+    outline: none;
+    
+}
+
+    
+}
+
+
+.darkmode111{
+    color: white!important;
+    background-color: #222!important;
+    
+    transition: color 0.5s ease-in;
+}
+
+.darkmode222{
+    color: white!important;
+    background-color: #333!important;
+  
+    transition: color 0.5s ease-in;
+}
+.darkmode111a{
+    color: orange!important;
+  
+   
+}
+.color-w{
+    color:white!important;
+    transition: color 0.5s ease-in;
+}
+.color-b{
+    color:black!important;
+ 
+}
+
+
+
+@media only screen and (max-width: 384px) {
+
+.underlogosocitem div{
+    font-size: 9px!important;
+}
+}

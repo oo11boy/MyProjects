@@ -1,0 +1,238 @@
+.checkoutcontainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5%;
+}
+.infousercheckout{
+    width: 63%;
+
+}
+.leftcheckoutshop{
+    width: 35%;
+    margin-top: 20px;
+}
+.contentleftcheckoutshop{
+    background-color: #2e2e35;
+   width: 100%;
+    padding: 10px;
+
+     border-radius: 15px;
+}
+.infousercheckout input{
+    padding: 5px 10px;
+background-color: #17171F;
+border: 1px solid #5f5f759f;
+  outline: none;
+    border-radius: 15px;
+    width: 50%;
+}
+.infousercheckout h3{
+    margin: 7px 0;
+}
+.undercheckoutform{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+}
+.endorderp7{
+    font-family: pinar;
+    font-weight: 600;
+    color: orange;
+    padding-bottom: 10px;
+    font-size: 24px;
+    
+}
+.addressget{
+    border-radius: 15px;
+
+    padding: 10px;
+    background-color: #2e2e35;
+    margin-top: 10px;
+}
+.noborder{
+    border:unset;
+    
+}
+.contentundercheckoutform{
+    display: flex;
+   
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 48%;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.contentundercheckoutform h3{
+    width: 100%;
+}
+
+.contentundercheckoutform input{
+    width: 90%;
+}
+
+.checkoutshirtinfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.checkoutshirtinfo img{
+    width: 40%;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.checkoutshirtinfo div{
+    width: 60%;
+    padding: 10px;
+}
+.checkoutshirtinfo h2{
+    padding: 5px;
+}
+
+.infopostp7{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+
+@media only screen and (max-width: 1300px) {
+    .infousercheckout{
+        width: 59%;
+    
+    }
+    .leftcheckoutshop{
+        width: 40%;
+    }
+
+    .leftcheckoutshop h2{
+        font-size: 14px;
+    }
+    .contentundercheckoutform{
+       
+        width: 100%;
+        flex-direction: column;
+        gap:unset;
+        align-items: flex-start;
+    }
+
+    .contentundercheckoutform h3{
+        width: 100%;
+    }
+    
+    .contentundercheckoutform input{
+        width: 90%;
+    }
+       
+
+}
+
+@media only screen and (max-width: 1005px) {
+    .checkoutcontainer{
+        flex-direction: column;
+    }
+    .contentundercheckoutform input{
+        width: 90%;
+    }
+    .infousercheckout{
+        width: 100%;
+    
+    }
+    .leftcheckoutshop{
+        width: 100%;
+    }
+       
+    .contentundercheckoutform h3{
+       font-size: 15px;
+       width: 30%;
+    }
+  
+
+      
+.checkoutshirtinfo img{
+    width: 30%;
+    height: 180px;
+    border-radius: 15px;
+}
+
+.checkoutshirtinfo div{
+    width: 70%;
+    padding: 10px;
+}
+}
+
+
+@media only screen and (max-width: 591px) {
+
+    
+.checkoutshirtinfo img{
+    width: 40%;
+    height: 160px;
+    border-radius: 15px;
+}
+
+.checkoutshirtinfo div{
+    width: 70%;
+    padding: 10px;
+}
+.checkoutshirtinfo h2{
+    padding: 5px;
+    font-size: 14px;
+}
+
+    .undercheckoutform{
+   
+        width: 100%;
+
+        flex-direction: column;
+        margin-top: 0;
+   
+    }
+    .contentundercheckoutform{
+       
+        width: 100%;
+        flex-direction: column;
+        gap:unset;
+    }
+    
+    .contentundercheckoutform h3{
+        width: 100%;
+    }
+    
+    .contentundercheckoutform input{
+        width: 100%;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 361px) {
+
+      
+    .checkoutshirtinfo img{
+        width: 40%;
+        height: 120px;
+        border-radius: 15px;
+    }
+    .textout{font-size: 8px!important;}
+    .checkoutshirtinfo div{
+        width: 70%;
+        padding: 10px;
+    }
+    .checkoutshirtinfo h2{
+        padding: 5px;
+        font-size: 12px;
+    }
+}

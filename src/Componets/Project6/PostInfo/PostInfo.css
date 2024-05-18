@@ -1,0 +1,242 @@
+.postcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  animation: animpost 0.3s;
+}
+
+@keyframes animpost {
+    0%{opacity: 0;}
+}
+.postfather{
+    width: 80%;
+    height: 75%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    outline: 0;
+    overflow: hidden;
+  
+}
+
+.rightpostp6{
+    width: 50%;
+    height: 100%;
+ 
+}
+.leftpostp6{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.rightpostp6 img{
+    width: 100%;
+    height: 100%;
+}
+.sec1postp6{
+    display: flex;
+    padding: 5px;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.139);
+}
+.rightsec1postp6{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+}
+.rightsec1postp6 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.commentinputp6{
+display: flex;
+align-items: center;
+justify-content: space-between;
+position: relative;
+padding: 15px;
+width: 100%;
+
+}
+
+.commentinputp6 input{
+    width: 100%;
+    padding: 10px 50px;
+    outline: none;
+    background-color: rgba(250, 235, 215, 0.087);
+    border: 1px solid rgb(10, 10, 215);
+    border-radius: 50px;
+    direction: rtl;
+}
+
+.emojiicon svg{
+    font-size:30px;
+    
+}
+
+.sendicon svg{
+    font-size:30px;
+}
+.sendicon{
+    position: absolute;
+    top: 30%;
+    right: 5%;
+}
+.emojiicon{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+.commentcontent{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.commentsingle{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-start;
+ 
+    margin:5px 15px;
+    direction: rtl;
+}
+.commentsingle img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.commentsingle div{
+    padding-left: 10px;
+}
+
+.commentcontent{
+    height: 170px;
+overflow: auto;
+}
+.hashtagc{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    background-color: #333;
+ height: auto;
+ padding: 20px ;
+    direction: rtl;
+    color: white;
+}
+.hashtagtext{
+    color: rgb(217, 217, 229);
+    margin-right: 10px;
+}
+
+
+.dactmob{
+    display: none;
+
+}
+@media only screen and (max-width: 1090px) {
+    .commentcontent{
+        height: auto;
+        overflow: unset;
+    }
+    .imagesnam{
+        margin-bottom: 100px;
+       
+    }
+    .sendicon{
+        position: absolute;
+        top: 32%;
+        right: 3%;
+    }
+    .emojiicon{
+        position: absolute;
+        top: 32%;
+        left: 3%;
+    }
+    .emojiicon svg{
+        font-size:25px;
+        
+    }
+    
+    .sendicon svg{
+        font-size:25px;
+    }
+.dactmob{
+    display: flex!important;  
+    height: 500px!important;
+}
+.dactmob img{
+    object-fit: cover;
+}
+.imgdnone{
+    display: none;
+}
+    .postfather{
+        width: 100%;
+        height: 100%;
+       flex-direction: unset;
+       align-items: unset;
+    overflow: auto!important;
+    }
+    
+.rightpostp6{
+    width: 100%;
+  height: 50%;
+ 
+}
+.leftpostp6{
+    width: 100%;
+   height: auto;
+}
+
+.hashtagc{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    background-color: #333;
+ height: 50px;
+ padding: 15px ;
+    direction: rtl;
+    color: white;
+}
+
+
+}
+
+
+@media only screen and (max-width: 540px) {
+    .sendicon{
+        position: absolute;
+        top: 32%;
+        right: 7%;
+    }
+    .emojiicon{
+        position: absolute;
+        top: 32%;
+        left: 7%;
+    }
+    .emojiicon svg{
+        font-size:25px;
+        
+    }
+    
+    .sendicon svg{
+        font-size:25px;
+    }
+}

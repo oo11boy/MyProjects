@@ -1,0 +1,246 @@
+.cmovie {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  color: #bcc7d6;
+  align-items: center;
+  flex-direction: column;
+  background-color: #363744;
+}
+.seatme {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.helping {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #2d2e39;
+  flex-direction: row;
+}
+
+.helping ul {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.helping ul li {
+  padding: 10px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.helping ul li svg {
+  margin-right: 10px;
+}
+
+.zarfiat {
+  padding-left: 10px;
+}
+.posfix {
+  height: 30%;
+  bottom: 0;
+  width: 100%;
+  background-color: #363744;
+}
+.infoticketmovie {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 2.5%;
+}
+.rightsidet {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 30%;
+}
+
+.imgtmovie {
+  margin-left: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.imgtmovie img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-position: center;
+}
+.infoadt {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+.infoadt p {
+  padding: 5px;
+}
+
+.leftsidet {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  flex-direction: column;
+  width: 30%;
+}
+.leftsidet p {
+  padding: 5px;
+}
+
+.centersidet {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  flex-wrap: wrap;
+  width: 40%;
+}
+.infosanrad {
+  display: flex;
+  align-items: start;
+  background-color: #4d4e5b;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 10px;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.infosanrad div {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.infosanrad div svg {
+  margin-right: 10px;
+}
+
+.headertaketiket {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 10px;
+
+  background-color: #363744;
+  height: 10%;
+  padding: 20px 0;
+  border-bottom: 2px solid #2d2e39;
+}
+.headertaketiket svg {
+  margin-left: 10px;
+}
+.screent {
+  margin-top: 100px;
+}
+.userti {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.timet {
+  background-color: #2d2e39;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.leftsidet p {
+  background-color: #888;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  width: 150px;
+  height: 50px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .infoticketmovie {
+    flex-direction: column;
+  }
+  .centersidet {
+    width: 100%;
+  }
+  .logoticket {
+    display: none;
+  }
+  .headertaketiket {
+    font-size: 15px;
+  }
+
+  .rightsidet {
+    flex-direction: column;
+    width: 100%;
+    align-items: start;
+    padding-top: 10px;
+  }
+  .leftsidet {
+    width: 100%;
+    align-items: center;
+    padding-top: 10px;
+  }
+  .imgtmovie {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 10px;
+  }
+
+  .imgtmovie img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: top;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .imgtmovie img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: fill;
+    object-position: top;
+  }
+  .imgtmovie {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .headertaketiket {
+    font-size: 12px;
+  }
+  .imgtmovie {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .headertaketiket {
+    font-size: 12px;
+  }
+  .imgtmovie {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 10px;
+  }
+}

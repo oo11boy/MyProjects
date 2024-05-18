@@ -1,0 +1,25 @@
+
+.containershop {
+  width: 100%;
+  min-height: 100vh;
+  margin: auto;
+  padding: 2% 10%;
+  background-color: #17171f;
+  color: #fefefe;
+  font-family: Yekan Bakh;
+  font-weight: 600;
+  font-size: 18px;
+
+  direction: rtl;
+  position: relative;
+}
+
+@media only screen and (max-width: 689px) {
+  .containershop {
+    padding: 2% 5%;
+  }
+
+}
+
+
+

@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .container{
+    margin:  auto;
+    width: 100%;
+    background-color: #333;
+    color: white;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  
+  
+  }
+  .count{
+    box-shadow: 0 3px 6px rgba(180, 13, 13, 0), 0 3px 6px rgba(0,0,0,0.23);
+  
+    background-color: #555;
+    padding: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  }
+  
+  .countnum{
+    text-align: center;
+    overflow: hidden;
+    font-size:5em;
+  
+    
+  }
+  .countnump{
+    animation: btnanimate 0.2s;
+   color:white;
+   font-style: oblique;
+  }
+  
+  @keyframes btnanimate {
+    0% {  opacity: 0;}
+     
+  }
+  
+  .othernum{
+    font-size: 0.9em;
+    color:rgb(220, 188, 188);
+  }

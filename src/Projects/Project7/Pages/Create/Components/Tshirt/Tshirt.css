@@ -1,0 +1,219 @@
+
+.previewtshirt .showimg{
+    position: relative;
+    width: 100%;
+   height: 800px;
+   border-radius: 15px;
+   overflow: hidden;
+  }
+
+  .bg-whiteshirt{
+    width: 60px;
+  height: 40px;
+  border-radius: 10px;
+  border: 4px solid rgba(68, 65, 60, 0.457);
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 15px;
+  }
+  .bg-blackshirt{
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    border: 4px solid rgba(68, 65, 60, 0.457);
+    background-color: black;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    justify-content: center;
+    cursor: pointer;
+  }
+.previewtshirt .showimg .imgbg{
+    width: 100%;
+  height: 100%;
+    position: absolute;
+    
+    left: 0;
+    top: 0;
+}
+
+.centerimg{
+    display: flex;
+    align-items: center;
+ width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 999;
+    position: absolute;
+    top: 40%;
+color: black;  
+}
+.centerimg img{
+    width: 20%;
+   
+    border-radius: 15px;
+    filter:contrast(0.5)
+}
+.musicimg{
+    width: 20%;
+    height: 60px!important;
+}
+.namemusicen{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+}
+.hlightextontshirt{
+    font-size: 11px;
+    padding: 10px;
+}
+
+.cwhite{
+    color: white!important;
+}
+
+.selectcolorshop{
+   position: absolute;
+   top: 0;
+   left: 0;
+ z-index: 999;
+ color:black;
+ display: flex;
+ align-items: center;
+
+}
+
+@media only screen and (max-width: 1153px) {
+    .previewtshirt{
+     
+        width: 100%;
+    }
+.previewtshirt .showimg{
+height: 750px;
+}
+    .hlightextontshirt{
+        font-size: 9px;
+        padding: 10px;
+    }
+
+
+    .musicimg{
+        width: 20%;
+        height: 40px!important;
+    }
+}
+
+@media only screen and (max-width: 926px) {
+   
+    .previewtshirt .showimg{
+        height: 600px;
+        }
+    .namemusicen{
+    font-size: 14px;
+    }
+
+        
+            .musicimg{
+                width: 20%;
+                height: 28px!important;
+            }
+            .hlightextontshirt{
+                font-size: 7px;
+                padding: 5px;
+            }
+}
+
+@media only screen and (max-width: 627px) {
+    .namemusicen{
+    font-size: 10px;
+    }
+    .previewtshirt .showimg{
+        height: 500px;
+        }
+  
+        
+            .musicimg{
+                width: 20%;
+                height: 20px!important;
+            }
+            .hlightextontshirt{
+                font-size: 6px;
+                padding: 5px;
+            }
+}
+
+
+
+
+@media only screen and (max-width: 501px) {
+    .previewtshirt .showimg{
+        height: 400px;
+        }
+    .namemusicen{
+    font-size: 8px;
+    }
+  
+        
+            .musicimg{
+                width: 20%;
+                height: 20px!important;
+            }
+            .hlightextontshirt{
+                font-size: 5px;
+                padding: 5px;
+            }
+}
+
+
+
+
+@media only screen and (max-width: 400px) {
+    .centerimg img{
+        width: 25%;
+        margin-top: 5px;
+    }
+    .previewtshirt .showimg{
+        height: 350px;
+        }
+    .namemusicen{
+    font-size: 10px;
+    }
+ 
+        
+            .musicimg{
+                width: 20%;
+                height: 15px!important;
+                
+            }
+            .hlightextontshirt{
+                font-size: 4px;
+                padding: 2px 0 0 0;
+            }
+}
+
+
+
+
+@media only screen and (max-width: 333px) {
+    .namemusicen{
+    font-size: 5px;
+    }
+    .previewtshirt .showimg{
+        height: 250px;
+        }
+        
+            .musicimg{
+                width: 20%;
+                height: 12px!important;
+            }
+            .centerimg img{
+                width: 20%;
+                margin-top: 5px;
+            }
+            .hlightextontshirt{
+                font-size: 3px;
+                padding: 5px;
+            }
+}

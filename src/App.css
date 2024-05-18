@@ -1,38 +1,25 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: vazir;
+  src: url('../public/Fonts/Vazir.ttf');
+}
+@font-face {
+  font-family: pinar;
+  src: url('../public/Fonts/Pinar.ttf');
+}
+@font-face {
+  font-family: 'Yekan Bakh';
+  src: local('Yekan Bakh Light'), local('Yekan-Bakh-Light'),
+      url('../public/Fonts/YekanBakh-Light.woff2') format('woff2'),
+      url('../public/Fonts/YekanBakh-Light.woff') format('woff'),
+      url('../public/Fonts/YekanBakh-Light.ttf') format('truetype');
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family: vazir;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-family: vazir;
+  opacity: 0.5;
 }

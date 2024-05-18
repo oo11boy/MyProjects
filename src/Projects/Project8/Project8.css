@@ -1,0 +1,73 @@
+.containertable{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.formp8{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    direction: rtl;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.formp8 input[type=text]{
+background-color: rgba(54, 11, 11, 0.362);
+border-radius: 10px;
+padding: 0 10px;
+font-size: 10px;
+margin-bottom: 5px;
+
+}
+input::placeholder{
+
+    font-size:7px!important;
+color: white;
+    
+    }
+
+
+.formp8 input[type=submit]{
+    background-color: rgba(210, 17, 17, 0.671);
+    border-radius: 15px;
+    padding: 0 10px;
+    margin-right: 5px;
+    margin-top: 2px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 10px;
+}
+
+.formp8 p{
+    font-size: 11px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: right;
+    font-size: 10px!important;
+  }
+  
+  table {
+    direction: rtl;
+    margin-top: 10px;
+    border-collapse: collapse;
+   
+  }
+  
+  th, td {
+    padding: 15px;
+  
+  }

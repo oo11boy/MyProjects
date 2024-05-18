@@ -1,0 +1,266 @@
+.namayecontainer {
+  width: 80%;
+  margin: 30px auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.topnamaye {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  height: 400px;
+  width: 100%;
+}
+
+.p6slider .swiper-slide img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.addnewst {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.p6slider .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.topnamaye img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+}
+
+.sec1content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 70%;
+  text-align: right;
+}
+.topnamaye .sec1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+
+  font-size: 30px;
+  width: 100%;
+}
+.topnamaye .sec2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
+  width: 100%;
+}
+.storyactive{
+  border: 3px solid rgb(174, 174, 15);
+  padding: 3px;
+  animation: animstory 1s infinite;
+}
+.storyactivesmall{
+  border: 3px solid rgb(174, 174, 15);
+  padding: 3px;
+
+}
+@keyframes animstory {
+  0%{border: 3px solid rgb(232, 6, 6);}
+}
+.usercounts {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  margin-left: 15px;
+}
+.infouser {
+  display: flex;
+  width: 100%;
+
+  justify-content: flex-end;
+}
+
+.topnamaye .sec3 {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 10px;
+  flex-direction: column;
+
+  width: 100%;
+}
+.topnamaye .sec3 h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.topnamaye .sec3 a {
+  color: rgb(8, 8, 84);
+  text-decoration: none;
+  padding-right: 5px;
+}
+.topnamaye .sec3 a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.topnamaye .sec4 {
+  width: 100%;
+}
+
+.p6slider {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.topnamaye .sec2 img {
+  display: none;
+}
+
+.btnamaye {
+  border-top: 1px solid rgba(0, 0, 0, 0.215);
+  width: 100%;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 1090px) {
+  .leftsocial {
+    width: 100%;
+  }
+  .topnamaye {
+    height: auto;
+  }
+  .imgdesk {
+    display: none;
+  }
+
+  .topnamaye .sec2 img {
+    display: inline;
+    width: 100px;
+    height: 100px;
+  }
+
+  .topnamaye .sec2 {
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0;
+  }
+  .infouser {
+    width: 80%;
+    padding-right: 5px;
+  }
+  .namayecontainer {
+    padding: 0 15px;
+    margin: unset;
+    width: 100%;
+  }
+  .sec1content {
+    width: 100%;
+  }
+  .usercounts {
+    flex-direction: column;
+  }
+  .topnamaye .sec1 p {
+    color: black;
+
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px 0;
+  }
+  .topnamaye .sec1 svg {
+    border-radius: 15px;
+    font-size: 30px;
+    margin: 5px 0;
+  }
+}
+
+.mestory {
+  width: 500px;
+}
+
+@media only screen and (max-width: 471px) {
+  .p6slider .swiper-slide img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+
+  .addnewst {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+
+  .topnamaye .sec1 {
+    font-size: 20px;
+  }
+  .topnamaye .sec2 img {
+    display: inline;
+    width: 80px;
+    height: 80px;
+  }
+  .usercounts {
+    flex-direction: column;
+  }
+  .infouser {
+    justify-content: flex-end;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .p6slider .swiper-slide img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  .addnewst {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  .topnamaye .sec2 img {
+    display: inline;
+    width: 60px;
+    height: 60px;
+  }
+  .usercounts {
+    flex-direction: column;
+  }
+  .infouser {
+    justify-content: flex-end;
+  }
+  .topnamaye .sec2 {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 297px) {
+  .infouser {
+    justify-content: unset;
+  }
+  .usercounts {
+    margin-left: 0;
+  }
+  .infouser {
+    justify-content: space-between;
+  }
+}
+
+.modalp6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

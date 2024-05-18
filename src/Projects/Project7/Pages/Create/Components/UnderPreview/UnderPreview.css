@@ -1,0 +1,215 @@
+
+.underpreviewtshirt{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+}
+
+.underpreviewtshirt .imgunder{
+    width: 22%;
+    height: 100%;
+}
+
+
+.underpreviewtshirt .imgunder img{
+border-radius: 15px;
+    height: 100%;
+    width: 100%;
+}
+
+.infounderpreview{
+    width: 77%;
+    background-color: #2e2e35;
+    height: 100%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+}
+.underselecttextmusic{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 30px 5px 10px;
+
+   
+}
+.topunder p{
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 18px;
+}
+.underselecttextmusic p{
+    width: 20%;
+ 
+}
+
+.nameartist{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 10px;
+    padding: 10px 30px 5px 10px;
+    margin: 20px;
+}
+
+.nameartist svg{
+    background-color: black;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+
+.nameartist  p{
+    background-color: black;
+    border-radius: 30%;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+@media only screen and (max-width: 1380px) {
+
+.infounderpreview{
+    padding:  10px;
+}
+    .underpreviewtshirt .imgunder{
+        width: 25%;
+
+    }
+
+    
+.infounderpreview{
+    width: 74%;
+}
+.underselecttextmusic p{
+    width: 30%;
+ 
+}
+
+}
+
+@media only screen and (max-width: 817px) {
+
+
+    .underpreviewtshirt .imgunder{
+        width: 25%;
+
+    }
+
+    
+.infounderpreview{
+    width: 74%;
+}
+.underselecttextmusic p{
+    width: 40%;
+ 
+}
+.underpreviewtshirt{
+    height: 150px;
+        }
+        .nameartist{
+            margin: 5px;
+        }
+        .nameartist p{
+            font-size: 12px;
+        }
+        .nameartist svg{
+            width: 30px;
+            height: 30px;
+        }
+}
+
+
+
+@media only screen and (max-width: 571px) {
+
+
+    .underpreviewtshirt .imgunder{
+        width: 25%;
+
+    }
+
+    
+.infounderpreview{
+    width: 74%;
+}
+.underselecttextmusic p{
+    width: 40%;
+    font-size: 14px;
+
+}
+.nameartist{
+    padding: 5px;
+}
+
+
+.underselecttextmusic{
+padding: 5px;
+}
+
+.underpreviewtshirt{
+    height: 120px;
+        }
+
+}
+
+
+@media only screen and (max-width: 414px) {
+    .underpreviewtshirt .imgunder{
+        width: 30%;
+
+    }
+
+    
+   .topunder p{
+    font-size:11px!important;
+}
+.infounderpreview{
+    width: 69%;
+}
+    .underselecttextmusic p{
+        width: 100%;
+        
+        font-size: 14px;
+    
+    }
+
+    .underpreviewtshirt{
+height: 110px;
+
+    }
+    .nameartist{
+        margin: 2px;
+    }
+    .nameartist p{
+        font-size: 12px;
+    }
+    .nameartist svg{
+       width: 30px;
+       height: 30px;
+    }
+    .tshirtdone{
+        font-size: 18px;
+    }
+
+}
+.orderdone{
+    background-color: blue;
+    width: 100%;
+    text-align: center;
+
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}

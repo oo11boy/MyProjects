@@ -1,0 +1,13 @@
+.btnclass{
+width: 100px;
+text-align: center;
+    padding: 30px 10px;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 120px;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(180, 13, 13, 0), 0 3px 6px rgba(0,0,0,0.23);
+
+}

@@ -1,0 +1,47 @@
+.skills{
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    align-items: right;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bodyskill{
+    height: 90%;
+    overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.iconsskill{
+display: flex;
+align-items: right;
+justify-content: right;
+margin-top: 20px;
+
+overflow: auto;
+}
+.iconsskillsvg{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.iconsskillsvg svg{
+    width: 150px;
+    color: black;
+    
+    font-size:50px;
+    border-radius: 50%;
+}
+
+.mySwiperskill .swiper-button-prev:after,.mySwiperskill .swiper-button-next:after{
+font-size: 20px;
+background-color: #45B096;
+padding: 7px 12px;
+border-radius: 50%;
+color: white;
+}

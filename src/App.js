@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Link, useRoutes } from "react-router-dom";
+import { MyRoutes } from "./MyRoutes";
+import "./App.css";
+import { GetDataUserProvider } from "./ContextApi/P2Context/GetDataUser";
+import SelectedSeatContextProvider from "./ContextApi/Project5/SelectedSeatContext";
+import SocialPostContextProvider from "./ContextApi/P6Context/socialpostcontext";
+import { ShopContextProvider } from "./Projects/Project7/Context/ShopContext";
 
-function App() {
+export default function App() {
+  const routers = useRoutes(MyRoutes);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ShopContextProvider>
+      <SelectedSeatContextProvider>
+        <SocialPostContextProvider>
+          <GetDataUserProvider>
+            <div style={{ width: "100%", height: "auto" }}>{routers}</div>
+          </GetDataUserProvider>
+        </SocialPostContextProvider>
+      </SelectedSeatContextProvider>
+    </ShopContextProvider>
   );
 }
-
-export default App;

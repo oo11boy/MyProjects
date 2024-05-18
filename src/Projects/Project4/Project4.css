@@ -1,0 +1,195 @@
+
+.todolist{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    flex-direction: column;
+    min-height: 100vh;
+    
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%231a4e83'%3e%3c/rect%3e%3cpath d='M0 0L698.58 0L0 751.73z' filter='url(%23SvgjsFilter1001)' fill='%232d409e'%3e%3c/path%3e%3cpath d='M0 560L698.58 560L0 -191.73000000000002z' filter='url(%23SvgjsFilter1001)' fill='%232d409e'%3e%3c/path%3e%3cpath d='M1440 560L741.42 560L1440 -191.73000000000002z' filter='url(%23SvgjsFilter1001)' fill='%232d409e'%3e%3c/path%3e%3cpath d='M1440 0L741.42 0L1440 751.73z' filter='url(%23SvgjsFilter1001)' fill='%232d409e'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cfilter height='130%25' id='SvgjsFilter1001'%3e%3cfeGaussianBlur in='SourceAlpha' stdDeviation='5' result='TopLeftG'%3e%3c/feGaussianBlur%3e%3cfeOffset dx='-5' dy='-5' in='TopLeftG' result='TopLeftO'%3e%3c/feOffset%3e%3cfeComponentTransfer in='TopLeftO' result='TopLeftC'%3e%3cfeFuncA type='linear' slope='0.7'%3e%3c/feFuncA%3e%3c/feComponentTransfer%3e%3cfeGaussianBlur in='SourceAlpha' stdDeviation='5' result='TopRightG'%3e%3c/feGaussianBlur%3e%3cfeOffset dx='5' dy='-5' in='TopRightG' result='TopRightO'%3e%3c/feOffset%3e%3cfeComponentTransfer in='TopRightO' result='TopRightC'%3e%3cfeFuncA type='linear' slope='0.7'%3e%3c/feFuncA%3e%3c/feComponentTransfer%3e%3cfeGaussianBlur in='SourceAlpha' stdDeviation='5' result='BottomLeftG'%3e%3c/feGaussianBlur%3e%3cfeOffset dx='-5' dy='5' in='BottomLeftG' result='BottomLeftO'%3e%3c/feOffset%3e%3cfeComponentTransfer in='BottomLeftO' result='BottomLeftC'%3e%3cfeFuncA type='linear' slope='0.7'%3e%3c/feFuncA%3e%3c/feComponentTransfer%3e%3cfeGaussianBlur in='SourceAlpha' stdDeviation='5' result='BottomRightG'%3e%3c/feGaussianBlur%3e%3cfeOffset dx='5' dy='5' in='BottomRightG' result='BottomRightO'%3e%3c/feOffset%3e%3cfeComponentTransfer in='BottomRightO' result='BottomRightC'%3e%3cfeFuncA type='linear' slope='0.7'%3e%3c/feFuncA%3e%3c/feComponentTransfer%3e%3cfeMerge%3e%3cfeMergeNode in='TopLeftC'%3e%3c/feMergeNode%3e%3cfeMergeNode in='TopRightC'%3e%3c/feMergeNode%3e%3cfeMergeNode in='BottomLeftC'%3e%3c/feMergeNode%3e%3cfeMergeNode in='BottomRightC'%3e%3c/feMergeNode%3e%3cfeMergeNode in='SourceGraphic'%3e%3c/feMergeNode%3e%3c/feMerge%3e%3c/filter%3e%3c/defs%3e%3c/svg%3e");
+
+    color: white;
+overflow: hidden;
+}
+
+.justify-center{
+    justify-content: center!important;
+}
+.bginsert{
+
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath1037%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%2332325d'%3e%3c/rect%3e%3ccircle r='26.3' cx='523.3' cy='391.07' fill='url(%26quot%3b%23SvgjsLinearGradient1038%26quot%3b)'%3e%3c/circle%3e%3ccircle r='17.245' cx='242.94' cy='22.46' fill='url(%26quot%3b%23SvgjsLinearGradient1039%26quot%3b)'%3e%3c/circle%3e%3ccircle r='14.76' cx='757.28' cy='514.75' fill='url(%26quot%3b%23SvgjsLinearGradient1040%26quot%3b)'%3e%3c/circle%3e%3ccircle r='38.575' cx='354.92' cy='158.6' fill='url(%26quot%3b%23SvgjsLinearGradient1041%26quot%3b)'%3e%3c/circle%3e%3ccircle r='21.86' cx='736.77' cy='383.31' fill='%2343468b'%3e%3c/circle%3e%3ccircle r='38.31' cx='1419.1' cy='63.4' fill='url(%26quot%3b%23SvgjsLinearGradient1042%26quot%3b)'%3e%3c/circle%3e%3ccircle r='31.445' cx='1354.22' cy='553.56' fill='url(%26quot%3b%23SvgjsLinearGradient1043%26quot%3b)'%3e%3c/circle%3e%3ccircle r='49.77' cx='352' cy='250.46' fill='url(%26quot%3b%23SvgjsLinearGradient1044%26quot%3b)'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath1037'%3e%3crect width='1440' height='560' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3clinearGradient x1='470.69999999999993' y1='391.07' x2='575.9' y2='391.07' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1038'%3e%3cstop stop-color='%23ab3c51' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%234f4484' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='208.45' y1='22.46' x2='277.43' y2='22.46' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1039'%3e%3cstop stop-color='%23f29b7c' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%237e6286' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='727.76' y1='514.75' x2='786.8' y2='514.75' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1040'%3e%3cstop stop-color='%23ab3c51' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%234f4484' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='277.77' y1='158.6' x2='432.07' y2='158.6' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1041'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23484687' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1342.48' y1='63.4' x2='1495.72' y2='63.4' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1042'%3e%3cstop stop-color='%23f29b7c' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%237e6286' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1291.33' y1='553.56' x2='1417.11' y2='553.56' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1043'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23484687' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='252.45999999999998' y1='250.46000000000004' x2='451.53999999999996' y2='250.46000000000004' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1044'%3e%3cstop stop-color='%23ab3c51' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%234f4484' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+.todoinsert select{
+    color: black;
+}
+.todoinsert {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+  
+ }
+
+.todoinsert input{
+    padding: 0 10px 0 30%;
+   height: 100%;
+    width: 100%;
+    color: black;
+  outline: none;
+
+
+}
+
+.todoinsert button{
+  
+    border: none;
+    background-color: greenyellow;
+    font-family: vazir;
+    cursor: pointer;
+    padding: 10px;
+
+    
+}
+.notelist {
+    width: 100%;
+     height: 300px;
+    overflow: auto;
+   
+}
+
+
+.notelist::-webkit-scrollbar {
+    /* تنظیم عرض اسکرول بار */
+    width: 8px;
+    margin-right: 10px;
+  }
+  
+  .notelist::-webkit-scrollbar-thumb {
+    /* تنظیم رنگ برای قسمت قابل دیدن اسکرول بار */
+    background-color: rgba(0, 0, 0, 0.2);
+    /* تنظیم شکل مورد نظر برای قسمت قابل دیدن اسکرول بار */
+    border-radius: 4px;
+  }
+  
+  .notelist::-webkit-scrollbar-thumb:hover {
+    /* تغییر رنگ برای وقتی ماوس روی اسکرول بار می‌آید */
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+.notelist ul{
+    width: 100%;
+ 
+  
+   
+}
+
+
+.notelist li{
+    display: flex;
+    align-items: center;
+    background-color: #444;
+    margin: 10px 0;
+    padding: 10px;
+    justify-content:space-between;
+    border-radius: 15px;
+    word-break: break-all;
+    width: 100%;
+}
+
+.addtodo{
+    padding: 0px 17px;
+    display: flex;
+    position: absolute;
+    left: 3px;
+    font-size: 22px;
+
+    top: 2.5px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 0, 0, 0.753);
+    cursor: pointer;
+}
+
+.filter-todos{
+    width:100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    outline: none;
+    font-family: vazir;
+}
+.filter-todos option{
+    padding: 10px;
+    font-family: vazir;
+}
+.todoinsertanim{
+    animation: animtodoinsert 0.4s;
+}
+@keyframes animtodoinsert {
+    0%{transform: translate(0,350px)}
+}
+.animationtodo{
+    animation: animtodo 1s;
+}
+
+.animationtodo2{
+    animation: opatodo 1s;
+}
+
+@keyframes animtodo {
+    0%{transform: translate(1000px,0);}
+}
+
+@keyframes opatodo {
+    0%{opacity: 0;}
+}
+
+
+
+@media only screen and (max-width: 1090px) {
+    .bginsert{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+.texttopp4{
+    font-size: 40px!important;
+}
+}
+
+@media only screen and (max-width: 641px) {
+    .texttopp4{
+        font-size: 30px!important;
+    }
+    .bginsert{
+        width: 90%;
+    }
+    }
+
+    @media only screen and (max-width: 500px) {
+        .texttopp4{
+            font-size: 25px!important;
+        }
+        .bginsert{
+            width: 95%;
+        }
+        
+.todoinsert input{
+font-size: 13px;
+}
+        }

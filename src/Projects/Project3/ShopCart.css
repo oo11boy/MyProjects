@@ -1,0 +1,275 @@
+.containercartshop {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  direction: rtl;
+}
+.cartlogop3 {
+  background-color: green;
+  padding: 20px;
+  font-size: 20px;
+  position: absolute;
+  top: 11%;
+  right: 23%;
+
+  border-radius: 20px 0 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.5s ease-in;
+
+  transition-delay: 0.2s;
+  z-index: 999;
+}
+.cartshowlogop3 {
+  background-color: rgb(19, 20, 21);
+  padding: 20px;
+  font-size: 20px;
+  z-index: 99;
+  position: absolute;
+  top: 10%;
+  right: 0px;
+  border-radius: 20px 0 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: right 0.3s ease-in;
+  
+}
+.cartlogop3 svg {
+  font-size: 40px;
+  color: white;
+  
+}
+.cartshowlogop3 {
+  font-size: 40px;
+  color: white;
+  z-index: 99;
+
+}
+.bodycartp3 {
+  width: 20%;
+  top: 10%;
+  right: -100%;
+  position: absolute;
+  height: 500px;
+  background-color: rgb(19, 20, 21);
+  border-bottom-left-radius: 20px;
+
+  transition: right 0.3s ease-in;
+  z-index: 99;
+}
+
+.bodyshowcartp3 {
+
+  width: 30%;
+  top: 10%;
+  right: 0%;
+  position: absolute;
+  height: 600px;
+  transition: right 0.7s ease-in;
+  background-color: rgb(19, 20, 21);
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  z-index: 99;
+
+}
+.bodyincart{
+    overflow: auto;
+    height: 400px;
+    width:100%;
+    background-color:#222;
+    border-radius:15px;
+}
+
+@media screen and (max-width: 1200px) {
+  .bodyshowcartp3{
+    width: 50%!important;
+
+  }
+.cartlogop3{
+  right: 40%;
+}
+}
+@media screen and (max-width: 900px) {
+  .bodyshowcartp3{
+    width: 70%!important;
+
+  }
+.cartlogop3{
+  right: 55%;
+}
+}
+@media screen and (max-width: 600px) {
+  .bodyshowcartp3{
+    width: 90%!important;
+
+  }
+.cartlogop3{
+  right: 70%;
+}
+}
+@media screen and (max-width: 450px) {
+  .bodyshowcartp3{
+    width: 100%!important;
+
+  }
+.cartlogop3{
+  right: 75%;
+}
+}
+
+
+
+
+@media screen and (max-width: 356px) {
+  .bodyshowcartp3{
+    width: 100%!important;
+
+  }
+.cartlogop3{
+  right: 70%;
+}
+}
+.imgcartpos{
+  position: relative;
+}
+.imgcartpos p{
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: green;
+  color: white;
+border-radius: 10px;
+padding: 2px 10px;
+}
+.animationcartp3 {
+  animation: animationcart 1s;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+@keyframes animationcart {
+  0% {
+    transform: rotate(360deg);
+    border-radius: 50%;
+  }
+}
+
+/* Slider CSS */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.mySwiperp3 {
+  width: 80%;
+}
+
+.mySwiperp3 .swiper-slide {
+  height: 300px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.mySwiperp3 .swiper-slide img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+.mySwiperp3 .swiper-slide img:hover {
+  transform: scale(1.1); /* افزایش اندازه تصویر */
+  transition: transform 1s;
+}
+
+.rightcart {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background-color: rgba(33, 33, 33, 0.944);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  color: white;
+}
+.leftcart {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.addtocartp3 {
+  background-color: black;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+}
+.starp3 {
+  margin-top: 10px;
+  direction: ltr;
+}
+.starp3 svg {
+  font-size: medium;
+}
+
+.leftcart p:nth-child(1) {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  background-color: #212121d9;
+}
+.textcartinfo {
+  padding: 10px;
+  text-align: right;
+}
+
+
+
+.cartitemp3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+  
+    padding: 20px;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #000;
+    font-size: large;
+}
+
+.cartitemp3 img{
+    width: 80px;
+    border-radius: 15px;
+    height: 80px;
+}
+
+.cartitemp3 svg{
+    color: red;
+    font-size: 30px;
+}
+
+.tootip{
+  animation: tooltip 1s;
+}
+@keyframes tooltip {
+  0%{opacity: 0;}
+}
