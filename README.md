@@ -6,22 +6,26 @@ Welcome to our multi-project React.js application! This repository contains seve
 
 ### 1. Instagram-like Web Application
 
-**Demo:** [View Demo](https://rasoulghsemi.liara.run/project6)
+**Demo:** [View Demo]
+(https://rasoulghsemi.liara.run/project6)
 Description: This project mimics the functionality of Instagram, allowing users to upload photos, apply filters, like, comment, and etc.
 
 ### 2. Custom T-Shirt Design Ordering Web Application
 
-**Demo:** [View Demo](https://rasoulghsemi.liara.run/project7)
+**Demo:** [View Demo]
+(https://rasoulghsemi.liara.run/project7)
 Description: This project enables users to design and order custom t-shirts by selecting colors, adding text, and uploading images.
 
 ### 3. To-Do List
 
-**Demo:** [View Demo](https://rasoulghsemi.liara.run/project4)
+**Demo:** [View Demo]
+(https://rasoulghsemi.liara.run/project4)
 Description: A simple to-do list application where users can create, update, delete, and mark tasks as complete.
 
 ### 4. Cinema Ticket Booking System
 
-**Demo:** [View Demo](https://rasoulghsemi.liara.run/project5)
+**Demo:** [View Demo]
+(https://rasoulghsemi.liara.run/project5)
 Description: An application for booking cinema tickets, featuring movie listings, showtimes, seat selection, and ticket purchasing.
 
 ## Technologies Used
@@ -34,14 +38,14 @@ Description: An application for booking cinema tickets, featuring movie listings
 
 ## RoadMap
 instagram-todolist-cenemaTicket-and-etc/src
-/Projects/
-│
+/Projects/ =>
+
 ├── project6(instagram-app)/
-│
+
 ├── project7( t-shirt-ordering-app)/
-│
+
 ├── project4(todo-app)/
-│
+
 └── project5(cinema-booking-app)/
 
 ## Setup Instructions
@@ -62,11 +66,8 @@ Contributions are welcome! If you'd like to contribute to any of the projects, p
 4. Push to the branch (`git push origin feature/your-feature-name`).
 5. Create a new Pull Request.
 
-## License
-
-[Include license information for your project]
 
 ## Contact
 
-If you have any questions or feedback, feel free to contact us at [your email address or other contact information].
+If you have any questions or feedback, feel free to contact us at [https://t.me/oo11boy].
 
